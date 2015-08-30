@@ -1,0 +1,91 @@
+cdrom_aspi_win32.o: cdrom_aspi_win32.cpp \
+  /Users/pengwei/.emscripten_cache/ports-builds/sdl2/include/SDL_version.h \
+  /Users/pengwei/.emscripten_cache/ports-builds/sdl2/include/SDL_stdinc.h \
+  /Users/pengwei/.emscripten_cache/ports-builds/sdl2/include/SDL_config.h \
+  /Users/pengwei/.emscripten_cache/ports-builds/sdl2/include/SDL_platform.h \
+  /Users/pengwei/.emscripten_cache/ports-builds/sdl2/include/begin_code.h \
+  /Users/pengwei/.emscripten_cache/ports-builds/sdl2/include/close_code.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/sys/types.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/features.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/bits/alltypes.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/endian.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/stdint.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/bits/stdint.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/sys/select.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/sys/sysmacros.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/stdio.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/compat/stdlib.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/stdlib.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/alloca.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/stddef.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/compat/stdarg.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/stdarg.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/compat/string.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/string.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/strings.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/inttypes.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/compat/ctype.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/ctype.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/compat/math.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/math.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/iconv.h
+
+/Users/pengwei/.emscripten_cache/ports-builds/sdl2/include/SDL_version.h:
+
+/Users/pengwei/.emscripten_cache/ports-builds/sdl2/include/SDL_stdinc.h:
+
+/Users/pengwei/.emscripten_cache/ports-builds/sdl2/include/SDL_config.h:
+
+/Users/pengwei/.emscripten_cache/ports-builds/sdl2/include/SDL_platform.h:
+
+/Users/pengwei/.emscripten_cache/ports-builds/sdl2/include/begin_code.h:
+
+/Users/pengwei/.emscripten_cache/ports-builds/sdl2/include/close_code.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/sys/types.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/features.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/bits/alltypes.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/endian.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/stdint.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/bits/stdint.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/sys/select.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/sys/sysmacros.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/stdio.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/compat/stdlib.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/stdlib.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/alloca.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/stddef.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/compat/stdarg.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/stdarg.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/compat/string.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/string.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/strings.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/inttypes.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/compat/ctype.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/ctype.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/compat/math.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/math.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/iconv.h:

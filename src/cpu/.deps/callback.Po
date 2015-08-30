@@ -1,0 +1,42 @@
+callback.o: callback.cpp \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/compat/stdlib.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/stdlib.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/features.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/bits/alltypes.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/alloca.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/compat/string.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/string.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/strings.h \
+  ../../include/dosbox.h ../../config.h ../../include/logging.h \
+  ../../include/callback.h ../../include/mem.h ../../include/cpu.h \
+  ../../include/regs.h
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/compat/stdlib.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/stdlib.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/features.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/bits/alltypes.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/alloca.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/compat/string.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/string.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/strings.h:
+
+../../include/dosbox.h:
+
+../../config.h:
+
+../../include/logging.h:
+
+../../include/callback.h:
+
+../../include/mem.h:
+
+../../include/cpu.h:
+
+../../include/regs.h:

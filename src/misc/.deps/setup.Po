@@ -1,0 +1,310 @@
+setup.o: setup.cpp ../../include/dosbox.h ../../config.h \
+  ../../include/logging.h ../../include/cross.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/stdio.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/features.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/bits/alltypes.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/compat/sys/stat.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/sys/stat.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/bits/stat.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/sys/types.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/endian.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/stdint.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/bits/stdint.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/sys/select.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/sys/sysmacros.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/string \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/__config \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/unistd.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/bits/posix.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/errno.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/bits/errno.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/iosfwd \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/compat/wchar.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/wchar.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/cstring \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/compat/string.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/string.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/strings.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/cstdio \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/cwchar \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/cwctype \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/cctype \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/compat/ctype.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/ctype.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/compat/wctype.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/wctype.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/algorithm \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/initializer_list \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/cstddef \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/stddef.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/type_traits \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/utility \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/__tuple \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/__tuple_03 \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/memory \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/typeinfo \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/exception \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/cstdint \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/new \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/limits \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/__undef_min_max \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/iterator \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/__functional_base \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/__functional_base_03 \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/__debug \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/tuple \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/stdexcept \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/dirent.h \
+  ../../include/setup.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/list \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/vector \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/__bit_reference \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/climits \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/limits.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/bits/limits.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/__split_buffer \
+  ../../include/control.h ../../include/programs.h \
+  ../../include/dos_inc.h ../../include/dos_system.h \
+  ../../include/support.h ../../include/mem.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/fstream \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/ostream \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/ios \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/__locale \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/mutex \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/__mutex_base \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/chrono \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/ctime \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/compat/time.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/time.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/ratio \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/system_error \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/cerrno \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/pthread.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/sched.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/functional \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/__functional_03 \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/locale.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/compat/xlocale.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/streambuf \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/locale \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/cstdarg \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/compat/stdarg.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/stdarg.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/cstdlib \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/compat/stdlib.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/stdlib.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/alloca.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/nl_types.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/bitset \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/istream \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/sstream
+
+../../include/dosbox.h:
+
+../../config.h:
+
+../../include/logging.h:
+
+../../include/cross.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/stdio.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/features.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/bits/alltypes.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/compat/sys/stat.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/sys/stat.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/bits/stat.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/sys/types.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/endian.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/stdint.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/bits/stdint.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/sys/select.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/sys/sysmacros.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/string:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/__config:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/unistd.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/bits/posix.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/errno.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/bits/errno.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/iosfwd:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/compat/wchar.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/wchar.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/cstring:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/compat/string.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/string.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/strings.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/cstdio:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/cwchar:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/cwctype:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/cctype:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/compat/ctype.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/ctype.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/compat/wctype.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/wctype.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/algorithm:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/initializer_list:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/cstddef:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/stddef.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/type_traits:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/utility:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/__tuple:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/__tuple_03:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/memory:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/typeinfo:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/exception:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/cstdint:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/new:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/limits:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/__undef_min_max:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/iterator:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/__functional_base:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/__functional_base_03:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/__debug:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/tuple:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/stdexcept:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/dirent.h:
+
+../../include/setup.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/list:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/vector:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/__bit_reference:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/climits:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/limits.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/bits/limits.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/__split_buffer:
+
+../../include/control.h:
+
+../../include/programs.h:
+
+../../include/dos_inc.h:
+
+../../include/dos_system.h:
+
+../../include/support.h:
+
+../../include/mem.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/fstream:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/ostream:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/ios:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/__locale:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/mutex:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/__mutex_base:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/chrono:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/ctime:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/compat/time.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/time.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/ratio:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/system_error:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/cerrno:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/pthread.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/sched.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/functional:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/__functional_03:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/locale.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/compat/xlocale.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/streambuf:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/locale:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/cstdarg:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/compat/stdarg.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/stdarg.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/cstdlib:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/compat/stdlib.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/stdlib.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/alloca.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/nl_types.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/bitset:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/istream:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libcxx/sstream:

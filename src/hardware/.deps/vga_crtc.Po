@@ -1,0 +1,42 @@
+vga_crtc.o: vga_crtc.cpp \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/compat/stdlib.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/stdlib.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/features.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/bits/alltypes.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/alloca.h \
+  ../../include/dosbox.h ../../config.h ../../include/logging.h \
+  ../../include/inout.h ../../include/vga.h ../../include/debug.h \
+  ../../include/cpu.h ../../include/regs.h ../../include/mem.h \
+  ../../include/video.h ../../include/pic.h
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/compat/stdlib.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/stdlib.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/features.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/bits/alltypes.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/alloca.h:
+
+../../include/dosbox.h:
+
+../../config.h:
+
+../../include/logging.h:
+
+../../include/inout.h:
+
+../../include/vga.h:
+
+../../include/debug.h:
+
+../../include/cpu.h:
+
+../../include/regs.h:
+
+../../include/mem.h:
+
+../../include/video.h:
+
+../../include/pic.h:

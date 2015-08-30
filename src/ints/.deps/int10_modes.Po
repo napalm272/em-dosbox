@@ -1,0 +1,35 @@
+int10_modes.o: int10_modes.cpp \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/compat/string.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/string.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/features.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/bits/alltypes.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/strings.h \
+  ../../include/dosbox.h ../../config.h ../../include/logging.h \
+  ../../include/mem.h ../../include/inout.h int10.h ../../include/vga.h \
+  ../../include/mouse.h
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/compat/string.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/string.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/features.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/bits/alltypes.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/strings.h:
+
+../../include/dosbox.h:
+
+../../config.h:
+
+../../include/logging.h:
+
+../../include/mem.h:
+
+../../include/inout.h:
+
+int10.h:
+
+../../include/vga.h:
+
+../../include/mouse.h:

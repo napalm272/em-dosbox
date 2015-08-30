@@ -1,0 +1,56 @@
+render_scalers.o: render_scalers.cpp ../../include/dosbox.h \
+  ../../config.h ../../include/logging.h ../../include/render.h \
+  ../../include/../src/gui/render_scalers.h ../../include/video.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/compat/string.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/string.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/features.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/bits/alltypes.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/strings.h \
+  render_templates.h render_simple.h render_loops.h \
+  render_templates_hq.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/compat/stdlib.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/stdlib.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/alloca.h \
+  render_templates_hq2x.h render_templates_hq3x.h render_templates_sai.h
+
+../../include/dosbox.h:
+
+../../config.h:
+
+../../include/logging.h:
+
+../../include/render.h:
+
+../../include/../src/gui/render_scalers.h:
+
+../../include/video.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/compat/string.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/string.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/features.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/bits/alltypes.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/strings.h:
+
+render_templates.h:
+
+render_simple.h:
+
+render_loops.h:
+
+render_templates_hq.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/compat/stdlib.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/stdlib.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/alloca.h:
+
+render_templates_hq2x.h:
+
+render_templates_hq3x.h:
+
+render_templates_sai.h:

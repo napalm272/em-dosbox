@@ -1,0 +1,49 @@
+vga_other.o: vga_other.cpp \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/compat/string.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/string.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/features.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/bits/alltypes.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/strings.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/compat/math.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/math.h \
+  ../../include/dosbox.h ../../config.h ../../include/logging.h \
+  ../../include/inout.h ../../include/vga.h ../../include/mem.h \
+  ../../include/pic.h ../../include/render.h \
+  ../../include/../src/gui/render_scalers.h ../../include/video.h \
+  ../../include/mapper.h
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/compat/string.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/string.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/features.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/bits/alltypes.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/strings.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/compat/math.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/math.h:
+
+../../include/dosbox.h:
+
+../../config.h:
+
+../../include/logging.h:
+
+../../include/inout.h:
+
+../../include/vga.h:
+
+../../include/mem.h:
+
+../../include/pic.h:
+
+../../include/render.h:
+
+../../include/../src/gui/render_scalers.h:
+
+../../include/video.h:
+
+../../include/mapper.h:

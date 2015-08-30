@@ -1,0 +1,1 @@
+cdrom_image.o: cdrom_image.cpp

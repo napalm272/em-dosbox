@@ -1,0 +1,57 @@
+core_normal.o: core_normal.cpp \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/stdio.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/features.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/bits/alltypes.h \
+  ../../include/dosbox.h ../../config.h ../../include/logging.h \
+  ../../include/mem.h ../../include/cpu.h ../../include/regs.h \
+  lazyflags.h ../../include/inout.h ../../include/callback.h \
+  ../../include/pic.h ../../include/fpu.h ../../include/paging.h \
+  instructions.h core_normal/support.h core_normal/helpers.h \
+  core_normal/table_ea.h core_normal/../modrm.h core_normal/string.h \
+  core_funarray.h core_normal_fun.h
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/stdio.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/features.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/bits/alltypes.h:
+
+../../include/dosbox.h:
+
+../../config.h:
+
+../../include/logging.h:
+
+../../include/mem.h:
+
+../../include/cpu.h:
+
+../../include/regs.h:
+
+lazyflags.h:
+
+../../include/inout.h:
+
+../../include/callback.h:
+
+../../include/pic.h:
+
+../../include/fpu.h:
+
+../../include/paging.h:
+
+instructions.h:
+
+core_normal/support.h:
+
+core_normal/helpers.h:
+
+core_normal/table_ea.h:
+
+core_normal/../modrm.h:
+
+core_normal/string.h:
+
+core_funarray.h:
+
+core_normal_fun.h:

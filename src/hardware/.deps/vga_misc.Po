@@ -1,0 +1,27 @@
+vga_misc.o: vga_misc.cpp ../../include/dosbox.h ../../config.h \
+  ../../include/logging.h ../../include/inout.h ../../include/pic.h \
+  ../../include/vga.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/compat/math.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/math.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/features.h \
+  /usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/bits/alltypes.h
+
+../../include/dosbox.h:
+
+../../config.h:
+
+../../include/logging.h:
+
+../../include/inout.h:
+
+../../include/pic.h:
+
+../../include/vga.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/compat/math.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/math.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/features.h:
+
+/usr/local/Cellar/emscripten/1.33.0/libexec/system/include/libc/bits/alltypes.h:
